@@ -1,0 +1,29 @@
+/* below are steps to create database and table in postgre sql*/
+
+/* 
+
+1. open pgadmin 
+2. on the left side servers -> postgre sql -> databases 
+3. right click on databases -> create -> database 
+4. give database name that you create in Mysql and save it 
+5. database_name -> schemas -> public -> tables 
+6. right click on table -> query tool 
+7. write create table statement and run it.
+
+*/
+
+create table student(
+rno int primary key,
+name varchar(50),
+age int
+);
+
+/* to show the table data follow below steps:- */
+
+/*
+
+1. right click on table name.
+2. view / edit data -> all rows.
+
+*/
+
